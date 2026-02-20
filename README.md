@@ -2,8 +2,9 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Agent Skills](https://img.shields.io/badge/Agent%20Skills-compatible-purple)
+[![ClawHub](https://img.shields.io/badge/ClawHub-maccabi--pharm--search-blue)](https://clawhub.ai/skills/maccabi-pharm-search)
 
-> **[Agent Skills](https://agentskills.io) format** - works with OpenClaw, Claude, Cursor, Codex, and other compatible clients
+> **[Agent Skills](https://agentskills.io) format** - works with OpenClaw, Claude, Cursor, Codex, and other compatible clients | **[ClawHub](https://clawhub.ai/skills/maccabi-pharm-search)**
 
 Search for medications and check real-time stock availability at Maccabi Pharm locations in Israel.
 
@@ -16,6 +17,10 @@ With this tool installed, your AI assistant can check every Maccabi Pharm branch
 ## Installation
 
 ```bash
+# ClawHub
+clawdhub install maccabi-pharm-search
+
+# npx
 npx skills add alexpolonsky/agent-skill-maccabi-pharm-search
 ```
 
