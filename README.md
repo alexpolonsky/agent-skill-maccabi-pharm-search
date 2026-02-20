@@ -58,6 +58,12 @@ Requires Node.js 16+ with no external dependencies.
 - "I need Nurofen - where can I find it in Ramat Gan?"
 - "Check if Acamol is available at any branch near me"
 
+Or use the CLI directly:
+```bash
+node scripts/pharmacy-search.js search "nurofen"
+node scripts/pharmacy-search.js stock 58299
+```
+
 ## Automation examples
 
 Ask your AI agent to set up recurring checks:
