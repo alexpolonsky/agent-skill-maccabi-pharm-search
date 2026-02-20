@@ -1,12 +1,10 @@
 ---
 name: maccabi-pharm-search
+version: 2.0.0
 description: Search for medications and check real-time stock availability at Maccabi pharmacies in Israel. Use when searching for drugs like "nurofen", "acamol/אקמול", "advil", or finding nearby pharmacy branches with stock. Supports Hebrew and English drug names. מכבי פארם, תרופות, מלאי, בית מרקחת.
-license: MIT
-compatibility: Requires Node.js 16+ and internet access
-metadata:
-  author: Alex Polonsky
-  github: https://github.com/alexpolonsky
-  version: "2.0.0"
+author: Alex Polonsky (https://github.com/alexpolonsky)
+homepage: https://github.com/alexpolonsky/agent-skill-maccabi-pharm-search
+metadata: {"openclaw": {"emoji": "💊", "os": ["darwin", "linux"], "requires": {"bins": ["node"]}}}
 ---
 
 # Maccabi Pharmacy Stock Check
