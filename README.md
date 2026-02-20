@@ -50,16 +50,21 @@ Requires Node.js 16+ with no external dependencies.
 
 </details>
 
-## Try it
+## What you can ask
 
-Ask your AI assistant:
 > "Is Nurofen in stock at any Maccabi pharmacy in Tel Aviv?"
 
-Or use the CLI directly:
-```bash
-node scripts/pharmacy-search.js search "nurofen"
-node scripts/pharmacy-search.js stock 58299
-```
+- "Which Maccabi pharmacies in Haifa have Nurofen in stock right now?"
+- "I need Nurofen - where can I find it in Ramat Gan?"
+- "Check if Acamol is available at any branch near me"
+
+## Automation examples
+
+Ask your AI agent to set up recurring checks:
+
+- "Check every morning if Nurofen is back in stock at any Maccabi pharmacy in Tel Aviv and let me know"
+- "Each day I need to pick up my medication - check which branches have it and tell me the closest one"
+- "Check every morning at 8am and alert me when Nurofen Forte becomes available at a pharmacy in Ramat Gan"
 
 ## Commands
 
