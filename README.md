@@ -6,7 +6,7 @@
 
 > **[Agent Skills](https://agentskills.io) format** - works with OpenClaw, Claude, Cursor, Codex, and other compatible clients | **[ClawHub](https://clawhub.ai/skills/maccabi-pharm-search)**
 
-Search for medications and check real-time stock availability at Maccabi Pharm locations in Israel.
+Search for medications and check current stock availability at Maccabi Pharm locations in Israel.
 
 ## The problem
 
@@ -82,7 +82,7 @@ Ask your AI agent to set up recurring checks:
 | Command | Description |
 |---------|-------------|
 | `search <query>` | Search drug catalog, get Largo codes |
-| `stock <largo_code> [city]` | Check real-time stock at pharmacies |
+| `stock <largo_code> [city]` | Check current stock at pharmacies |
 | `branches maccabi [city]` | List Maccabi Pharm locations |
 | `cities` | List all 51 available city codes |
 | `test` | Run functionality test |
